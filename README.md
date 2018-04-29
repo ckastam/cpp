@@ -1,4 +1,5 @@
-## Welcome to GitHub Pages
+## Welcome to C++ Turorial
+### A selection of C++ programs
 
 You can use the [editor on GitHub](https://github.com/ckastam/cpp/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
