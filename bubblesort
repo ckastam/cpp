@@ -1,0 +1,45 @@
+/* C++ Program - Bubble Sort */
+		
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+	int n=0, i, j, temp, sum;
+	int *arr=new int[n]; /*dynamically allocating memory ie it adjusts its size according to the input during runtime */
+	cout<<"Enter total number of elements :";
+	cin>>n;
+
+	cout<<"Enter "<<n<<" numbers :";
+	for(i=0; i<n; i++)
+	{
+		cin>>arr[i];
+		cout<<endl;
+	}
+	cout<<"Sorting array using bubble sort technique...\n";
+	for(i=0; i<(n-1); i++)
+	{
+		for(j=0; j<(n-i-1); j++)
+		{
+			if(arr[j]>arr[j+1])
+			{
+				temp=arr[j];
+				arr[j]=arr[j+1];
+				arr[j+1]=temp;
+			}
+		}
+	}
+	cout<<"Elements sorted successfully..!!\n";
+	cout<<"Sorted list in ascending order :\n";
+	for(i=0; i<n; i++)
+	{
+		cout<<arr[i]<<" "<<endl;
+		
+		}
+	}
+  
+  */ This is how bubble sort works
+            i=0   i=1               i=2                   i=3
+ arr[j]     8     8                 arr[j]=arr[j+1]=6     6
+ temp       0     temp=arr[j]=8     8                     8
+ arr[j+1]   6     6                 6                     arr[j+1]=temp=8
+ */
