@@ -4,7 +4,7 @@
 This is a selection of C++ programs that i have develloped using my University programming notes (both Barchelor's and Master's studies) and other resources from www. 
 
 ### Catalogue of Programs
-1. bubblesort: Bubble Sort. The well-known technique of sorting the elements of an array. For example, when an array is passed like [19, 5, 42, 2, 77], the output should be [2, 5, 19, 42, 77].
+1. BubbleSort: Bubble Sort. The well-known technique of sorting the elements of an array. For example, when an array is passed like [19, 5, 42, 2, 77], the output should be [2, 5, 19, 42, 77].
 2. SumofMin: Sum of 2 lowest elements of an array using initially the bubble sort technique to sort the elements of the array in ascending order. For example, when an array is passed like [19, 5, 42, 2, 77], the output should be 7.
 
 
