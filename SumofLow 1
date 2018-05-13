@@ -29,7 +29,7 @@ int m=0;  //number of elements of sumpair
 	for (int f=0; f<m;f++)
 	{
 	cout<<"Print sum of pair["<<f<<"]= "<<sumpair[f]<<endl;
-}
+	}
 	for(int x=0; x<m; x++) //bubble sort of array of sums sumpair
 	{
 	for (int w=0; w<m-x-1;w++)
