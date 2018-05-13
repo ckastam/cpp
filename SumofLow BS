@@ -1,4 +1,4 @@
-/* C++ Program - Sum of Lowest 2 elements of an Array using bubble Sort Technique*/
+/* C++ Program - Sum of Lowest 2 elements of an Array using Bubble Sort Technique*/
 		
 #include<iostream.h>
 #include<conio.h>
