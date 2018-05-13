@@ -5,7 +5,8 @@ This is a selection of C++ programs that i have develloped using my University p
 
 ### Catalogue of Programs
 1. BubbleSort: Bubble Sort. The well-known technique of sorting the elements of an array. For example, when an array is passed like [19, 5, 42, 2, 77], the output should be [2, 5, 19, 42, 77].
-2. SumofMin: Sum of 2 lowest elements of an array using initially the bubble sort technique to sort the elements of the array in ascending order. For example, when an array is passed like [19, 5, 42, 2, 77], the output should be 7.
+2. SumofLow BS: Sum of 2 lowest elements of an array using initially the Bubble Sort technique to sort the elements of the array in ascending order. For example, when an array is passed like [19, 5, 42, 2, 77], the output should be 7.
+3. SumofLow BS: Sum of 2 lowest elements of an array without using the Bubble Sort technique to sort the elements of the array in ascending order. For example, when an array is passed like [19, 5, 42, 2, 77], the output should be 7. Here the sum of each pair of elements of the output is being calculated, then inserted into an array sumpair in whcih the bubble sort technique is used to calculate the lowest sum. 
 
 
 You can use the [editor on GitHub](https://github.com/ckastam/cpp/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
