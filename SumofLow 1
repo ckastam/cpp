@@ -1,0 +1,51 @@
+/* Create a function that returns the sum of the two lowest positive numbers given an array of minimum 4 integers. No floats or empty arrays will be passed.
+
+For example, when an array is passed like [19, 5, 42, 2, 77], the output should be 7.
+Hint: DO NOT MODIFY THE ORIGINAL ARRAY. */
+#include <iostream>
+using namespace std;
+int main ()
+{
+const  long k=0;
+double long *sumpair=new  long [k];
+long sum0;
+double long a[]={19, 5, 42, 2, 77};
+int n=5;
+int m=0;  //number of elements of sumpair
+		for (int i=0;i<n-1;i++)
+		{
+			for (int j=0;j<n;j++)
+			{
+				if (i!=j)
+				{
+				cout<<"Pair "<<i<<","<<j;   // we do not modify the original array as instructed
+				sumpair[m]=a[i]+a[j];       // but instead we create another array sumpair                       
+				cout<<" Print sum of pair ["<<m<<"] ="<<sumpair[m]<<endl; // with elements the sums of every pair of elements in a!
+				m++;
+						}
+			}
+	
+	}
+	for (int f=0; f<m;f++)
+	{
+	cout<<"Print sum of pair["<<f<<"]= "<<sumpair[f]<<endl;
+}
+	for(int x=0; x<m; x++) //bubble sort of array of sums sumpair
+	{
+	for (int w=0; w<m-x-1;w++)
+		{
+		if (sumpair[w]>sumpair[w+1])
+		{	
+		sum0=sumpair[w];
+		sumpair[w]=sumpair[w+1];
+		sumpair[w+1]=sum0;
+		}
+    	}
+		}
+for(int b=0; b<9; b++)
+	{
+	cout<<"print ("<<b<<") sum :"<<sumpair[b]<<" "<<endl;	
+	}
+cout<<"Give lowest sum :"<<sumpair[0]<<endl; 
+return 0;
+}
